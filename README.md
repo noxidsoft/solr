@@ -25,3 +25,6 @@ or if parse SIGKILL in some cases (big hammer solution):
 ```sh
 $> kill -9 $(lsof -ti :$PORT)
 ```
+
+Issues:
+Currently not working on either Ubuntu remote server nor WSL2. Cause unknown. Server starts okay but doesn't connect via browser. Might be JAVA 21 version issue?
